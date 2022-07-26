@@ -1,0 +1,198 @@
+*{
+    margin: 0;
+    padding:0 ;
+    box-sizing: border-box;   
+}
+.logo{
+    height: 45px;
+}
+.nav-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 1rem;
+    padding-left: 4rem;
+}
+ul{
+    list-style-type: none;
+}
+li {
+    float: right;
+   display: flex;
+   flex-direction: row;
+   padding: 1rem 2rem;
+}
+li a{
+    color: black;
+    text-decoration: none;
+    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+}
+.firstlayer{
+    padding-top: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding-left: 4rem;
+}
+.files{
+    font-weight: bold;
+    font-size: 30px;
+}
+.stores{
+    padding-top: 1rem;
+    font-size: 18px;
+}
+.form{
+    padding-top: 1rem;
+}
+.email{
+    width: 200px;
+    padding: 0.5rem 1rem;
+}
+.get{
+    width: 150px;
+    padding:  0.6rem;
+    color: white;
+    background-color: hsl(239, 100%, 38%);
+    border: none;
+}
+.illust1{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 950px;
+}
+.secondlayer{
+    padding-top: 200px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-repeat: no-repeat;
+}
+
+.illust2{
+    width: 400px;
+    height: 400px;
+    position: absolute;
+    left: 950px;
+    top: 500px;
+}
+.backg{
+    position: absolute;
+    right: -350px;
+    z-index: -1;
+    height: 1000px;
+    width: 2300px;
+}
+.content2{ 
+    padding-top: 300px;
+    padding-left: 4rem;
+}
+a {
+    color: hsl(170, 45%, 43%);
+    padding-top: 1rem;
+}
+.how{
+    padding-top: 1rem;
+}
+.stores7{
+    width: 500px;
+    height: 290px;
+    padding-top: 1rem;
+    padding: 1rem 2rem;
+    font-size: 18px;
+    line-height: 25px;
+    position: absolute;
+    background-color: white;
+    margin-top: 50px;
+    filter: drop-shadow(8px 8px 10px gray);
+}
+.files2{
+    font-weight: bold;
+    font-size: 20px;   
+}
+
+.avatar{
+    border-radius: 50%;
+    margin-top: 15px;
+}
+#container{
+    display: flex;
+    align-items: center;
+}
+.text{
+    padding: 1rem;
+}
+.thirdlayer{
+    
+    margin-top: 400px;
+    background-color: hsl(238, 22%, 44%);
+    padding-top: 40px;
+    padding-left: 4rem;
+    padding: 3rem 4rem;
+}
+
+.files1{
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.stores4{
+    padding-top: 1rem;
+    font-size: 18px;
+    color: white;
+}
+.email1{
+    width: 370px;
+    padding: 0.5rem 1rem;
+}
+.arrng{
+ display: flex;
+ align-items: center;
+}
+.form1{
+    padding: 2rem;
+    padding-left: 25rem;
+}
+.get1{
+    width: 150px;
+    padding:  0.6rem;
+    color: white;
+    background-color: hsl(239, 100%, 38%);
+    border: none;
+}
+
+.foot{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    display: flex;
+    flex-direction: row;
+    padding-left: 4rem;
+    padding-top: 40px;
+}
+.foot1{
+    line-height: 30px;
+}
+.foot2{
+    padding: 3.5rem 8rem;
+    line-height: 30px;
+}
+.foot3{
+    padding: 3.5rem 8rem;
+    line-height: 30px;
+}
+.foot4{
+    padding: 3.5rem 8rem;
+    line-height: 30px;
+}
+.fa-solid{
+    padding: 0.5rem;
+}
+.attribution{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    text-align: center;
+}
+.logos{
+ color: white;
+}
